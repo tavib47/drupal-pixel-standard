@@ -1,0 +1,15 @@
+{
+  "name": "tavib47/drupal-pixel-standard",
+  "description": "Drupal installation profile with commonly used features pre-configured",
+  "type": "drupal-profile",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/tavib47/drupal-pixel-standard",
+  "version": "1.0",
+  "minimum-stability": "stable",
+  "require": {
+    "composer/installers": "^2.0"
+  },
+  "extra": {
+    "installer-name": "pixel_standard"
+  }
+}
