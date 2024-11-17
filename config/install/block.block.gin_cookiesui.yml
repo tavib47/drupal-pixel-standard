@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - cookies
+  theme:
+    - gin
+id: gin_cookiesui
+theme: gin
+region: help
+weight: 0
+provider: null
+plugin: cookies_ui_block
+settings:
+  id: cookies_ui_block
+  label: 'Cookies UI'
+  label_display: '0'
+  provider: cookies
+visibility: {  }

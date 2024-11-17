@@ -1,0 +1,63 @@
+name: 'Pixel Standard'
+type: profile
+description: 'Install with commonly used features pre-configured.'
+version: 1.0
+core_version_requirement: ^11
+install:
+  - admin_toolbar
+  - admin_toolbar_search
+  - admin_toolbar_tools
+  - ajax_loader
+  - autologout
+  - better_exposed_filters
+  - block
+  - breakpoint
+  - captcha
+  - chosen
+  - chosen_lib
+  - ckeditor5
+  - config_translation
+  - cookies
+  - dynamic_page_cache
+  - easy_breadcrumb
+  - editor
+  - environment_indicator
+  - facets
+  - field
+  - field_group
+  - file
+  - filter
+  - genpass
+  - gin_toolbar
+  - google_tag
+  - honeypot
+  - js_cookie
+  - language
+  - link
+  - locale
+  - mail_login
+  - metatag
+  - monolog
+  - mysql
+  - node
+  - page_cache
+  - path
+  - path_alias
+  - rabbit_hole
+  - redirect
+  - remove_username
+  - search_api
+  - search_api_db
+  - smtp
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - update
+  - user
+  - pathauto
+  - views
+themes:
+  - claro
+  - gin

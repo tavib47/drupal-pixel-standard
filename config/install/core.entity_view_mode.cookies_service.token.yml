@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - cookies
+id: cookies_service.token
+label: Token
+description: null
+targetEntityType: cookies_service
+cache: true
