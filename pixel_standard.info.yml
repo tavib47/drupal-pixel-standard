@@ -63,3 +63,4 @@ install:
 themes:
   - claro
   - gin
+  - olivero
