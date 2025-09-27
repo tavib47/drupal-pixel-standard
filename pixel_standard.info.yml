@@ -36,6 +36,7 @@ install:
   - link
   - locale
   - mail_login
+  - mailsystem
   - metatag
   - monolog
   - mysql
@@ -45,10 +46,11 @@ install:
   - path_alias
   - rabbit_hole
   - redirect
+  - redis
   - remove_username
   - search_api
   - search_api_db
-  - smtp
+  - symfony_mailer_lite
   - system
   - taxonomy
   - text
