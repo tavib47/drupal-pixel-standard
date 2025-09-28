@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - block_content.type.basic_block
+    - core.entity_view_display.node.page.default
     - filter.format.full_html
     - media.type.images
     - media.type.vector_image
@@ -36,6 +37,7 @@ permissions:
   - 'access toolbar'
   - 'administer redirects'
   - 'administer url aliases'
+  - 'configure editable page node layout overrides'
   - 'create and edit custom blocks'
   - 'create basic_block block content'
   - 'create content translations'
