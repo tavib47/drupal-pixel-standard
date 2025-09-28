@@ -11,6 +11,7 @@ install:
   - autologout
   - better_exposed_filters
   - block
+  - block_content
   - breakpoint
   - captcha
   - chosen
@@ -41,6 +42,7 @@ install:
   - locale
   - mail_login
   - mailsystem
+  - media
   - metatag
   - monolog
   - mysql
@@ -56,6 +58,8 @@ install:
   - search_api
   - search_api_db
   - serialization
+  - svg_image_field
+  - svg_image_field_media_bundle
   - symfony_mailer_lite
   - system
   - taxonomy

@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: images
+label: Images
+description: 'Manages image files (JPEG, PNG, GIF, WebP) with metadata, thumbnails, and alt text.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }
