@@ -1,0 +1,97 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_block
+    - filter.format.full_html
+    - media.type.images
+    - media.type.vector_image
+    - node.type.page
+  module:
+    - admin_toolbar_search
+    - block_content
+    - content_translation
+    - file
+    - filter
+    - layout_builder
+    - media
+    - node
+    - path
+    - redirect
+    - system
+    - taxonomy
+    - toolbar
+    - toolbar_language_switcher
+id: content_editor
+label: 'Content editor'
+weight: -8
+is_admin: false
+permissions:
+  - 'access block library'
+  - 'access content'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer redirects'
+  - 'administer url aliases'
+  - 'create and edit custom blocks'
+  - 'create basic_block block content'
+  - 'create content translations'
+  - 'create images media'
+  - 'create media'
+  - 'create page content'
+  - 'create url aliases'
+  - 'create vector_image media'
+  - 'delete all revisions'
+  - 'delete all taxonomy revisions'
+  - 'delete any basic_block block content'
+  - 'delete any basic_block block content revisions'
+  - 'delete any images media'
+  - 'delete any images media revisions'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any vector_image media'
+  - 'delete any vector_image media revisions'
+  - 'delete content translations'
+  - 'delete media'
+  - 'delete own images media'
+  - 'delete own page content'
+  - 'delete own vector_image media'
+  - 'delete page revisions'
+  - 'edit any basic_block block content'
+  - 'edit any images media'
+  - 'edit any page content'
+  - 'edit any vector_image media'
+  - 'edit own images media'
+  - 'edit own page content'
+  - 'edit own vector_image media'
+  - 'revert all revisions'
+  - 'revert all taxonomy revisions'
+  - 'revert any basic_block block content revisions'
+  - 'revert any images media revisions'
+  - 'revert any vector_image media revisions'
+  - 'revert page revisions'
+  - 'translate any entity'
+  - 'translate block_content'
+  - 'translate editable entities'
+  - 'translate page node'
+  - 'update any media'
+  - 'update content translations'
+  - 'update media'
+  - 'use admin toolbar search'
+  - 'use text format full_html'
+  - 'use toolbar_language_switcher'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view all taxonomy revisions'
+  - 'view any basic_block block content history'
+  - 'view any images media revisions'
+  - 'view any vector_image media revisions'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
+  - 'view the administration theme'
+  - 'view vocabulary labels'
