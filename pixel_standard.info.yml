@@ -18,7 +18,7 @@ install:
   - chosen
   - chosen_lib
   - ckeditor5
-  - ckeditor_accordio
+  - ckeditor_accordion
   - ckeditor_iframe
   - config_translation
   - contextual
