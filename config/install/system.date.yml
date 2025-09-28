@@ -1,6 +1,6 @@
-first_day: 0
+first_day: 1
 country:
-  default: null
+  default: RO
 timezone:
   default: Europe/Bucharest
   user:

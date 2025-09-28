@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: date_time
+label: 'Date and time'
+locked: false
+pattern: 'd F Y, H:i'
