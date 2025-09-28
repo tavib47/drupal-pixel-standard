@@ -1,0 +1,18 @@
+cancel_confirm:
+  subject: 'Cerere de anulare cont pentru [user:display-name] la [site:name]'
+password_reset:
+  subject: 'Înlocuirea informațiilor de autentificare pentru [user:display-name] la [site:name]'
+register_admin_created:
+  subject: 'Un administrator a creat un cont pentru dumneavoastră la [site:name]'
+register_no_approval_required:
+  subject: 'Detalii cont pentru [user:display-name] la [site:name]'
+register_pending_approval:
+  subject: 'Detalii cont pentru [user:display-name] la [site:name] (aprobare de către administrator în așteptare)'
+register_pending_approval_admin:
+  subject: 'Detalii cont pentru [user:display-name] la [site:name] (aprobare de către administrator în așteptare)'
+status_activated:
+  subject: 'Detalii cont pentru [user:display-name] la [site:name] (aprobat)'
+status_blocked:
+  subject: 'Detalii cont pentru [user:display-name]  la [site:name] (blocat)'
+status_canceled:
+  subject: 'Detalii cont pentru [user:display-name] la [site:name] (anulat)'

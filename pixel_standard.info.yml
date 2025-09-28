@@ -41,6 +41,7 @@ install:
   - js_cookie
   - language
   - layout_builder
+  - layout_builder_operation_link
   - layout_discovery
   - link
   - locale
@@ -71,10 +72,12 @@ install:
   - text
   - token
   - toolbar
+  - toolbar_language_switcher
   - update
   - user
   - webform
   - pathauto
+  - content_translation
   - views
 themes:
   - claro
