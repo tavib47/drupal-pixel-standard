@@ -47,6 +47,7 @@ install:
   - mail_login
   - mailsystem
   - media
+  - media_library
   - metatag
   - monolog
   - mysql
