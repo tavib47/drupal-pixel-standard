@@ -17,6 +17,7 @@ install:
   - chosen_lib
   - ckeditor5
   - config_translation
+  - contextual
   - cookies
   - dynamic_page_cache
   - easy_breadcrumb
@@ -31,8 +32,11 @@ install:
   - gin_toolbar
   - google_tag
   - honeypot
+  - image
   - js_cookie
   - language
+  - layout_builder
+  - layout_discovery
   - link
   - locale
   - mail_login
@@ -48,8 +52,10 @@ install:
   - redirect
   - redis
   - remove_username
+  - rest
   - search_api
   - search_api_db
+  - serialization
   - symfony_mailer_lite
   - system
   - taxonomy
@@ -58,6 +64,7 @@ install:
   - toolbar
   - update
   - user
+  - webform
   - pathauto
   - views
 themes:
