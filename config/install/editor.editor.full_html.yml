@@ -13,69 +13,37 @@ settings:
       - bold
       - italic
       - strikethrough
+      - underline
       - superscript
       - subscript
       - removeFormat
+      - specialCharacters
+      - alignment
       - '|'
       - link
+      - anchor
       - '|'
       - bulletedList
       - numberedList
       - '|'
       - blockQuote
-      - drupalInsertImage
       - insertTable
+      - Accordion
+      - iframeEmbed
       - horizontalLine
-      - '|'
+      - '-'
       - heading
-      - codeBlock
+      - style
       - '|'
+      - showBlocks
       - sourceEditing
   plugins:
-    ckeditor5_codeBlock:
-      languages:
-        -
-          label: 'Plain text'
-          language: plaintext
-        -
-          label: C
-          language: c
-        -
-          label: 'C#'
-          language: cs
-        -
-          label: C++
-          language: cpp
-        -
-          label: CSS
-          language: css
-        -
-          label: Diff
-          language: diff
-        -
-          label: HTML
-          language: html
-        -
-          label: Java
-          language: java
-        -
-          label: JavaScript
-          language: javascript
-        -
-          label: PHP
-          language: php
-        -
-          label: Python
-          language: python
-        -
-          label: Ruby
-          language: ruby
-        -
-          label: TypeScript
-          language: typescript
-        -
-          label: XML
-          language: xml
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
     ckeditor5_heading:
       enabled_headings:
         - heading2
@@ -83,8 +51,6 @@ settings:
         - heading4
         - heading5
         - heading6
-    ckeditor5_imageResize:
-      allow_resize: true
     ckeditor5_list:
       properties:
         reversed: true
@@ -92,6 +58,24 @@ settings:
       multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Fancy Title'
+          element: '<h2 class="fancy-title">'
+    ckeditor_iframe_embed_iframeembed:
+      enabled_optional_attributes:
+        - height
+        - width
+        - name
+        - tabindex
+        - title
+        - allowfullscreen
+    editor_advanced_link_link:
+      enabled_attributes:
+        - target
+    media_media:
+      allow_view_mode_override: true
 image_upload:
   status: true
   scheme: public

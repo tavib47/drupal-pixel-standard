@@ -8,6 +8,7 @@ install:
   - admin_toolbar_search
   - admin_toolbar_tools
   - ajax_loader
+  - anchor_link
   - autologout
   - better_exposed_filters
   - block
@@ -17,12 +18,15 @@ install:
   - chosen
   - chosen_lib
   - ckeditor5
+  - ckeditor_accordio
+  - ckeditor_iframe
   - config_translation
   - contextual
   - cookies
   - dynamic_page_cache
   - easy_breadcrumb
   - editor
+  - editor_advanced_link
   - environment_indicator
   - facets
   - field
