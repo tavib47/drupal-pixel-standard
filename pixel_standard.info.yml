@@ -25,7 +25,7 @@ install:
   - cookies
   - dynamic_page_cache
   - easy_breadcrumb
-  - easy
+  - easy_email
   - easy_email_override
   - editor
   - editor_advanced_link
