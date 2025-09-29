@@ -10,10 +10,10 @@ bcc: {  }
 fromName: ''
 fromAddress: ''
 replyToAddress: ''
-subject: 'Your [site:mail] account'
+subject: 'Your [site:name] account'
 inboxPreview: ''
 bodyHtml:
-  value: '<p>Hello,</p><p>Your [site:mail] account is now active and you can log in using your email and password.</p><p>If you forgot your password, you can reset it by clicking on this link: <a href="url]/user/password">[site:url]/user/password</a></p><p>Best regards,<br>The [site:mail] team</p>'
+  value: '<p>Hello,</p><p>Your [site:name] account is now active and you can log in using your email and password.</p><p>If you forgot your password, you can reset it by clicking on this link: <a href="[site:url]/user/password">[site:url]/user/password</a></p><p>Best regards,<br>The [site:name] team</p>'
   format: full_html
 bodyPlain: ''
 generateBodyPlain: false

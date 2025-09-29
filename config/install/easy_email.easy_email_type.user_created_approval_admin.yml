@@ -11,10 +11,10 @@ bcc: {  }
 fromName: ''
 fromAddress: ''
 replyToAddress: ''
-subject: 'A new [site:mail] account requires administrator approval'
+subject: 'A new [site:name] account requires administrator approval'
 inboxPreview: ''
 bodyHtml:
-  value: '<p>Hello,</p><p>[easy_email:field_related_user:0:entity:display-name] has applied for a [site:mail] account.</p><p>Visit the following link to approve the request: <a href="edit-url]">[easy_email:field_related_user:0:entity:edit-url]</a></p><p>Best regards,<br>The [site:mail] team</p>'
+  value: '<p>Hello,</p><p>[easy_email:field_related_user:0:entity:display-name] has applied for a [site:name] account.</p><p>Visit the following link to approve the request: <a href="[easy_email:field_related_user:0:entity:edit-url]">[easy_email:field_related_user:0:entity:edit-url]</a></p><p>Best regards,<br>The [site:name] team</p>'
   format: full_html
 bodyPlain: ''
 generateBodyPlain: false

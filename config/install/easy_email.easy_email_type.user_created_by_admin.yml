@@ -10,10 +10,10 @@ bcc: {  }
 fromName: ''
 fromAddress: ''
 replyToAddress: ''
-subject: 'Your [site:mail] account'
+subject: 'Your [site:name] account'
 inboxPreview: ''
 bodyHtml:
-  value: '<p>Hello,</p><p>Your [site:mail] account has been created. You need to visit the following link to create a password with which you will subsequently authenticate in the application:</p><p class="text-align-center"><a href="one-time-login-url]"><strong>Log in and set your password</strong></a></p><p>Best regards,<br>The [site:mail] team</p>'
+  value: '<p>Hello,</p><p>Your [site:name] account has been created. You need to visit the following link to create a password with which you will subsequently authenticate in the application:</p><p class="text-align-center"><a href="[easy_email:recipient_uid:0:entity:one-time-login-url]"><strong>Log in and set your password</strong></a></p><p>Best regards,<br>The [site:name] team</p>'
   format: full_html
 bodyPlain: ''
 generateBodyPlain: false

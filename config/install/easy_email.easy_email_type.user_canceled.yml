@@ -10,10 +10,10 @@ bcc: {  }
 fromName: ''
 fromAddress: ''
 replyToAddress: ''
-subject: 'Your [site:mail] account has been canceled'
+subject: 'Your [site:name] account has been canceled'
 inboxPreview: ''
 bodyHtml:
-  value: '<p>Hello,</p><p>Your [site:mail] account has been canceled.</p><p>If you think this is a mistake, please contact us here: <a href="url]/contact">[site:url]/contact</a></p><p>Best regards,<br>The [site:mail] team</p>'
+  value: '<p>Hello,</p><p>Your [site:name] account has been canceled.</p><p>If you think this is a mistake, please contact us here: <a href="[site:url]/contact">[site:url]/contact</a></p><p>Best regards,<br>The [site:name] team</p>'
   format: full_html
 bodyPlain: ''
 generateBodyPlain: false

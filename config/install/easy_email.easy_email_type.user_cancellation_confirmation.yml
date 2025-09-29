@@ -10,10 +10,10 @@ bcc: {  }
 fromName: ''
 fromAddress: ''
 replyToAddress: ''
-subject: '[site:mail] account cancellation request'
+subject: '[site:name] account cancellation request'
 inboxPreview: ''
 bodyHtml:
-  value: '<p>Hello,</p><p>We received a [site:mail] account cancellation request.</p><p>You can now cancel your account by clicking on this link: <a href="cancel-url]">Cancel account</a>.</p><p><strong>NOTE: Canceling your account is not reversible.</strong></p><p>This link expires in one day and nothing will happen if it is not used.</p><p>Best regards,<br>The [site:mail] team</p>'
+  value: '<p>Hello,</p><p>We received a [site:name] account cancellation request.</p><p>You can now cancel your account by clicking on this link: <a href="[easy_email:recipient_uid:0:entity:cancel-url]">Cancel account</a>.</p><p><strong>NOTE: Canceling your account is not reversible.</strong></p><p>This link expires in one day and nothing will happen if it is not used.</p><p>Best regards,<br>The [site:name] team</p>'
   format: full_html
 bodyPlain: ''
 generateBodyPlain: false

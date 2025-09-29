@@ -1,11 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-id: user_activation
 label: 'User: Account Activation'
-module: user
-key: status_activated
-easy_email_type: user_activation
+id: user_activation
 param_map:
   -
     source: account
@@ -20,3 +17,6 @@ copied_fields:
   body_html: false
   body_plain: false
   attachments: false
+module: user
+key: status_activated
+easy_email_type: user_activation

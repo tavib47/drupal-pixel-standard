@@ -10,10 +10,10 @@ bcc: {  }
 fromName: ''
 fromAddress: ''
 replyToAddress: ''
-subject: '[site:mail] account requires administrator approval'
+subject: '[site:name] account requires administrator approval'
 inboxPreview: ''
 bodyHtml:
-  value: '<p>Hello,</p><p>Thank you for registering for a [site:mail] account. Your account request is awaiting administrator approval. Once it has been approved, you will receive another email containing information on how to log in, set your password and other details.</p><p>Best regards,<br>The [site:mail] team</p>'
+  value: '<p>Hello,</p><p>Thank you for registering for a [site:name] account. Your account request is awaiting administrator approval. Once it has been approved, you will receive another email containing information on how to log in, set your password and other details.</p><p>Best regards,<br>The [site:name] team</p>'
   format: full_html
 bodyPlain: ''
 generateBodyPlain: false

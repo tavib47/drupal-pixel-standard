@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_email_override
+id: easy_email_override.token
+label: Token
+description: null
+targetEntityType: easy_email_override
+cache: true
