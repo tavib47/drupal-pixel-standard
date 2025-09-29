@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies: {  }
+id: user_canceled
+label: 'User: Account Canceled'
+key: ''
+recipient: {  }
+cc: {  }
+bcc: {  }
+fromName: ''
+fromAddress: ''
+replyToAddress: ''
+subject: 'Your [site:mail] account has been canceled'
+inboxPreview: ''
+bodyHtml:
+  value: '<p>Hello,</p><p>Your [site:mail] account has been canceled.</p><p>If you think this is a mistake, please contact us here: <a href="url]/contact">[site:url]/contact</a></p><p>Best regards,<br>The [site:mail] team</p>'
+  format: full_html
+bodyPlain: ''
+generateBodyPlain: false
+attachment: {  }
+saveAttachment: false
+attachmentScheme: public
+attachmentDirectory: ''
+saveEmail: true
+allowSavingEmail: true
+purgeEmails: true
+purgeInterval: 30
+purgePeriod: days

@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies: {  }
+id: user_activation
+label: 'User: Account Activation'
+key: ''
+recipient: {  }
+cc: {  }
+bcc: {  }
+fromName: ''
+fromAddress: ''
+replyToAddress: ''
+subject: 'Your [site:mail] account'
+inboxPreview: ''
+bodyHtml:
+  value: '<p>Hello,</p><p>Your [site:mail] account is now active and you can log in using your email and password.</p><p>If you forgot your password, you can reset it by clicking on this link: <a href="url]/user/password">[site:url]/user/password</a></p><p>Best regards,<br>The [site:mail] team</p>'
+  format: full_html
+bodyPlain: ''
+generateBodyPlain: false
+attachment: {  }
+saveAttachment: false
+attachmentScheme: public
+attachmentDirectory: ''
+saveEmail: true
+allowSavingEmail: true
+purgeEmails: true
+purgeInterval: 30
+purgePeriod: days

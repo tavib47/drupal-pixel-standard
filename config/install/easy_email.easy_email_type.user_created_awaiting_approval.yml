@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies: {  }
+id: user_created_awaiting_approval
+label: 'User: Created - Awaiting Approval'
+key: ''
+recipient: {  }
+cc: {  }
+bcc: {  }
+fromName: ''
+fromAddress: ''
+replyToAddress: ''
+subject: '[site:mail] account requires administrator approval'
+inboxPreview: ''
+bodyHtml:
+  value: '<p>Hello,</p><p>Thank you for registering for a [site:mail] account. Your account request is awaiting administrator approval. Once it has been approved, you will receive another email containing information on how to log in, set your password and other details.</p><p>Best regards,<br>The [site:mail] team</p>'
+  format: full_html
+bodyPlain: ''
+generateBodyPlain: false
+attachment: {  }
+saveAttachment: false
+attachmentScheme: public
+attachmentDirectory: ''
+saveEmail: true
+allowSavingEmail: true
+purgeEmails: true
+purgeInterval: 30
+purgePeriod: days

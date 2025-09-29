@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies: {  }
+id: user_cancellation_confirmation
+label: 'User: Account Cancellation Confirmation'
+key: ''
+recipient: {  }
+cc: {  }
+bcc: {  }
+fromName: ''
+fromAddress: ''
+replyToAddress: ''
+subject: '[site:mail] account cancellation request'
+inboxPreview: ''
+bodyHtml:
+  value: '<p>Hello,</p><p>We received a [site:mail] account cancellation request.</p><p>You can now cancel your account by clicking on this link: <a href="cancel-url]">Cancel account</a>.</p><p><strong>NOTE: Canceling your account is not reversible.</strong></p><p>This link expires in one day and nothing will happen if it is not used.</p><p>Best regards,<br>The [site:mail] team</p>'
+  format: full_html
+bodyPlain: ''
+generateBodyPlain: false
+attachment: {  }
+saveAttachment: false
+attachmentScheme: public
+attachmentDirectory: ''
+saveEmail: true
+allowSavingEmail: true
+purgeEmails: true
+purgeInterval: 30
+purgePeriod: days
